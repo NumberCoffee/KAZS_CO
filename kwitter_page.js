@@ -71,6 +71,6 @@ function updateLike(message_id){
   firebase.database().ref(RoomName).child(message_id).update({
     like:updated_likes
   });
-  }
+  
 
 
